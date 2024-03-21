@@ -2,6 +2,7 @@
 $(document).ready(function () {
     $('#modoOscuro').click(function () {
         $('body').toggleClass('dark-mode');
+        $('h5').toggleClass('dark-mode');
         $(this).toggleClass('active');
         $('#skills').toggleClass('.habilidades-oscuro');
         $('.nombre').toggleClass('form-dark');
