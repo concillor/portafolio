@@ -14,7 +14,7 @@ $(document).ready(function () {
     });
     $('#skills').mouseover(function () {
         $('.front').animate({
-            width: '80%'
+            width: '90%'
         }, 1000);
         $('.bootstrap').animate({
             width: '80%'
